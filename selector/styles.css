@@ -1,0 +1,15 @@
+*{
+    font-size: 150%;
+}
+
+.done > .done{
+    color: firebrick;
+}
+
+.box .done{
+    color: blanchedalmond;
+}
+
+.done > .done{
+    color: firebrick;
+}
