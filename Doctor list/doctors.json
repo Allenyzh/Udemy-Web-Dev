@@ -1,0 +1,124 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Smith",
+      "dateOfBirth": "1980-05-15",
+      "address": "123 Main St",
+      "postalCode": "A1B 2C3",
+      "city": "Toronto",
+      "province": "ON",
+      "country": "Canada",
+      "phoneNumber": "123-456-7890",
+      "specialty": "Cardiology"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Johnson",
+      "dateOfBirth": "1975-08-20",
+      "address": "456 Elm St",
+      "postalCode": "X0X 0X0",
+      "city": "Vancouver",
+      "province": "BC",
+      "country": "Canada",
+      "phoneNumber": "456-789-0123",
+      "specialty": "Pediatrics"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Williams",
+      "dateOfBirth": "1982-03-10",
+      "address": "789 Oak St",
+      "postalCode": "Y1Y 1Y1",
+      "city": "Montreal",
+      "province": "QC",
+      "country": "Canada",
+      "phoneNumber": "789-012-3456",
+      "specialty": "Dermatology"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Brown",
+      "dateOfBirth": "1978-12-25",
+      "address": "321 Pine St",
+      "postalCode": "Z9Z 9Z9",
+      "city": "Calgary",
+      "province": "AB",
+      "country": "Canada",
+      "phoneNumber": "234-567-8901",
+      "specialty": "Oncology"
+    },
+    {
+      "id": 5,
+      "name": "Dr. Jones",
+      "dateOfBirth": "1985-06-30",
+      "address": "654 Cedar St",
+      "postalCode": "B2B 2B2",
+      "city": "Ottawa",
+      "province": "ON",
+      "country": "Canada",
+      "phoneNumber": "345-678-9012",
+      "specialty": "Neurology"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Taylor",
+      "dateOfBirth": "1987-09-05",
+      "address": "987 Maple St",
+      "postalCode": "C3C 3C3",
+      "city": "Edmonton",
+      "province": "AB",
+      "country": "Canada",
+      "phoneNumber": "456-789-0123",
+      "specialty": "Psychiatry"
+    },
+    {
+      "id": 7,
+      "name": "Dr. Martinez",
+      "dateOfBirth": "1970-02-18",
+      "address": "234 Birch St",
+      "postalCode": "D4D 4D4",
+      "city": "Quebec City",
+      "province": "QC",
+      "country": "Canada",
+      "phoneNumber": "567-890-1234",
+      "specialty": "Orthopedics"
+    },
+    {
+      "id": 8,
+      "name": "Dr. Anderson",
+      "dateOfBirth": "1973-11-12",
+      "address": "543 Walnut St",
+      "postalCode": "E5E 5E5",
+      "city": "Winnipeg",
+      "province": "MB",
+      "country": "Canada",
+      "phoneNumber": "678-901-2345",
+      "specialty": "Endocrinology"
+    },
+    {
+      "id": 9,
+      "name": "Dr. Thomas",
+      "dateOfBirth": "1981-04-22",
+      "address": "876 Spruce St",
+      "postalCode": "F6F 6F6",
+      "city": "Halifax",
+      "province": "NS",
+      "country": "Canada",
+      "phoneNumber": "789-012-3456",
+      "specialty": "Gastroenterology"
+    },
+    {
+      "id": 10,
+      "name": "Dr. White",
+      "dateOfBirth": "1976-07-08",
+      "address": "765 Fir St",
+      "postalCode": "G7G 7G7",
+      "city": "Victoria",
+      "province": "BC",
+      "country": "Canada",
+      "phoneNumber": "890-123-4567",
+      "specialty": "Rheumatology"
+    }
+  ]
+}

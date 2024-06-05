@@ -12,6 +12,11 @@ document.addEventListener("DOMContentLoaded", () => {
       const button = document.createElement("button");
       button.classList.add("square", "rounded");
       button.textContent = cell;
+      if (cell === "X") {
+        button.classList.add("text-4xl", "font-black", "text-black-900");
+      } else if (cell === "O") {
+        button.classList.add("text-4xl", "font-black", "text-red-600");
+      }
       button.addEventListener("click", () => handleClick(index));
       board.appendChild(button);
     });
@@ -59,7 +64,26 @@ document.addEventListener("DOMContentLoaded", () => {
       const desc = move ? `Go to move #${move}` : "Go to game start";
       const li = document.createElement("li");
       const button = document.createElement("button");
-      button.classList.add("text-white", "bg-blue-700", "hover:bg-blue-800", "focus:ring-4", "focus:outline-none", "focus:ring-blue-300", "font-medium", "rounded-lg", "text-sm", "px-5", "py-2.5", "text-center", "inline-flex", "items-center", "dark:bg-blue-600", "dark:hover:bg-blue-700", "dark:focus:ring-blue-800", "m-2");
+      button.classList.add(
+        "text-white",
+        "bg-blue-700",
+        "hover:bg-blue-800",
+        "focus:ring-4",
+        "focus:outline-none",
+        "focus:ring-blue-300",
+        "font-medium",
+        "rounded-lg",
+        "text-sm",
+        "px-5",
+        "py-2.5",
+        "text-center",
+        "inline-flex",
+        "items-center",
+        "dark:bg-blue-600",
+        "dark:hover:bg-blue-700",
+        "dark:focus:ring-blue-800",
+        "m-2"
+      );
       button.textContent = desc;
       button.onclick = () => {
         currentStep = move;

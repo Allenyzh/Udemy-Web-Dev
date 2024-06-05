@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rotating Ring</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        function light(a){
+            var pic;
+            if (a == 0){
+                pic="res/Off.jpg" 
+            } else {
+                pic="res/On.jpg" 
+            }
+            document.getElementById("myImage").src = pic;
+        }
+    </script>
+    <img id="myImage" src="res/Off.jpg" width="371" height="1024">
+
+    <p>
+    <button type="button" onclick="light(1)">Light On</button>
+    <button type="button" onclick="light(0)">Light Off</button>
+    </p>
+</body>
+</html>
