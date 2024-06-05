@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      #board {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+      .square {
+        cursor: pointer;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: inset 4px 4px 6px rgba(0, 0, 0, 0.2),
+          inset -4px -4px 6px rgba(255, 255, 255, 0.7);
+      }
+    </style>
+  </head>
+  <body
+    class="flex flex-col items-center justify-center min-h-screen bg-gray-100"
+  >
+    <div class="board" id="board"></div>
+
+    <div id="message" class="text-xl mt-4"></div>
+
+    <ul id="history" class="history"></ul>
+
+    <script src="game.js"></script>
+  </body>
+</html>
