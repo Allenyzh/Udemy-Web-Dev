@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gomoku</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      #board {
+        display: grid;
+        grid-template-columns: repeat(15, 30px);
+        grid-gap: 2px;
+        margin: 20px;
+      }
+      .square {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: inset 4px 4px 6px rgba(0, 0, 0, 0.2),
+          inset -4px -4px 6px rgba(255, 255, 255, 0.7);
+        width: 30px;
+        height: 30px;
+        background-color: #fff;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        font-size: 24px;
+        user-select: none;
+      }
+    </style>
+  </head>
+  <body
+    class="flex flex-col items-center justify-center min-h-screen bg-gray-100"
+  >
+    <div class="board" id="board"></div>
+
+    <div id="message" class="text-xl mt-4"></div>
+
+    <ul id="history" class="history"></ul>
+
+    <script src="game.js"></script>
+  </body>
+</html>
